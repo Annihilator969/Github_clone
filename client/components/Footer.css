@@ -1,0 +1,96 @@
+
+footer {
+    background-color: #eeeaea;
+    color: rgb(11, 10, 10);
+    padding: 20px 0;
+  }
+  
+  .footer1 {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  
+  .footer2 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .footer3 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .heading {
+    font-weight: bold;
+  }
+  
+  .div {
+    padding: 5px 0;
+  }
+  
+  .social_media {
+    text-align: center;
+  }
+  
+  .wrapper {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+  }
+  
+  .icon {
+    text-decoration: none;
+    color: rgb(7, 3, 3);
+    margin: 0 5px;
+  }
+  
+  .tooltip {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+  
+  /* Social media icons */
+  .facebook:hover { color: #3b5998; }
+  .twitter:hover { color: #1da1f2; }
+  .instagram:hover { color: #e4405f; }
+  .github:hover { color: #333; }
+  .Linkedln:hover { color: #0077b5; }
+  
+ 
+  @media screen and (max-width: 768px) {
+    .footer2 {
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .footer3 {
+      flex-direction: column;
+    }
+    
+    .wrapper {
+      margin-top: 20px;
+    }
+  }
+  
